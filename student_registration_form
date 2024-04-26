@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student registration form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #797575;
+    }
+
+    .login-form {
+      background-color: #0b6961cc;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.363);
+      text-align: center;
+    }
+
+    .login-form input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+
+      border-radius: 30px;
+      box-sizing: border-box;
+      border: none;
+      outline: none;
+    }
+
+    .login-form button {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      background-color: #ac0ea4;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .login-form button:hover {
+      background-color: #1d5e49;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="login-form">
+    <h2>Student registration</h2>
+    <form>
+      <input type="text" placeholder="Username" required><br>
+      <input type="password" placeholder="Password" required><br>
+      <input type="email" placeholder="Email" required><br>
+      <input type="text" placeholder="Student ID" required><br>
+      <button type="submit" style="border-radius: 40px;">Sign Up</button>
+    </form>
+  </div>
+</body>
+
+</html>
